@@ -1,7 +1,7 @@
-# SpeechAnalysis Product Mission
+# Product Mission
 To provide an instantaneous, accessible, low-cost COVID-19 testing alternative that has high reliability and accuracy to help limit the spread of COVID-19. 
 
-# Minimum Viable Product (MVP)
+# Minimum Viable Product
 An algorithmic model (ML?) to process the user's audio sample and diagnose COVID-19 with minimum of >90% sensitivity and >95% specificity and a target of >92% sensitivity and >99% specificity.
 
 # MVP User Story
