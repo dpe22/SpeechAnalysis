@@ -47,6 +47,7 @@ Color-coded map of COVID-19 positive tests and points representing audio sample 
 ![image](https://user-images.githubusercontent.com/74585697/136977288-d11605c4-65d3-4faf-aa7c-f2e5931855af.png)
 
 Machine-accessible metadata file describing the reported data: https://doi.org/10.6084/m9.figshare.14377019
+
 Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
 
 The XGB classifier used to remove non-cough recordings, feature extraction source code, cough preprocessing methods, cough segmentation function, and SNR estimation algorithm are available on a public repository: https://c4science.ch/diffusion/10770/repository
