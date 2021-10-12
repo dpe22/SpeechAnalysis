@@ -29,10 +29,14 @@ Image Source (https://www.linkedin.com/in/williamhgates/)
 
 # Open-Source Data
 The COUGHVID dataset provides over 25,000 crowdsourced cough recordings representing a wide range of participant ages, genders, geographic locations, and COVID-19 statuses. Four experienced physicians labeled more than 2,800 of the recordings.
-  Measurement(s)	Cough
-  Technology Type(s)	Microphone Device
-  Factor Type(s)	COVID-19 status • location • age • gender • respiratory condition
-  Sample Characteristic - Organism	Homo sapiens
+  
+  Measurement(s):	Cough
+  
+  Technology Type(s):	Microphone Device
+  
+  Factor Type(s):	COVID-19 status • location • age • gender • respiratory condition
+  
+  Sample Characteristic - Organism:	Homo sapiens
   
 Color-coded map of COVID-19 positive tests and points representing audio sample collections:
 ![image](https://user-images.githubusercontent.com/74585697/136977288-d11605c4-65d3-4faf-aa7c-f2e5931855af.png)
