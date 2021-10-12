@@ -52,7 +52,7 @@ Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
 
 The XGB classifier used to remove non-cough recordings, feature extraction source code, cough preprocessing methods, cough segmentation function, and SNR estimation algorithm are available on a public repository: https://c4science.ch/diffusion/10770/repository
 
-## What is Xgb regression?
+## What is Xgb?
 Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
 
 ## Other Machine Learning Technology
