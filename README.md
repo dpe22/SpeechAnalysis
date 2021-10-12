@@ -29,14 +29,10 @@ Image Source (https://www.linkedin.com/in/williamhgates/)
 
 # Open-Source Data
 The COUGHVID dataset provides over 25,000 crowdsourced cough recordings representing a wide range of participant ages, genders, geographic locations, and COVID-19 statuses. Four experienced physicians labeled more than 2,800 of the recordings.
-  
-  Measurement(s):	Cough
-  
-  Technology Type(s):	Microphone Device
-  
-  Factor Type(s):	COVID-19 status • location • age • gender • respiratory condition
-  
-  Sample Characteristic - Organism:	Homo sapiens
+- Measurement(s):	Cough
+- Technology Type(s):	Microphone Device
+- Factor Type(s):	COVID-19 status • location • age • gender • respiratory condition
+- Sample Characteristic - Organism:	Homo sapiens
   
 Color-coded map of COVID-19 positive tests and points representing audio sample collections:
 ![image](https://user-images.githubusercontent.com/74585697/136977288-d11605c4-65d3-4faf-aa7c-f2e5931855af.png)
@@ -46,8 +42,8 @@ Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
 
 The XGB classifier used to remove non-cough recordings, feature extraction source code, cough preprocessing methods, cough segmentation function, and SNR estimation algorithm are available on a public repository: https://c4science.ch/diffusion/10770/repository
 
-# What is Xgb regression?
+## What is Xgb regression?
 Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
 
-# Machine Learning Technology
+# Other Machine Learning Technology
 We are learning more about pytorch to better understand what libraries, tools and/or algorithms may be available to us to help us improve the classification of cough audio samples to diagnose COVID-19 and build our MVP.
