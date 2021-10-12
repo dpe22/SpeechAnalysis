@@ -16,10 +16,12 @@ As an insurance company, medical provider, or government, I need to limit the sp
 As a citizen of a developing nation, I cannot travel to a testing facility and I have not been offered a vaccine. I need a COVID-19 test that is free and accessible to me and others in my community so that we can work together to limit the spread of COVID without the infrastructure or government assistance provided in wealthier countries. 
 
 Although the lack of electricity in some countries prevents the poorest citizens from owning or charging a mobile phone. Cell phones, and specifically smartphones are becoming more and more ubiquitous throughout the world. 
+
 ![image](https://user-images.githubusercontent.com/74585697/136975046-b508854f-037f-46df-877b-a6a71ee1d954.png)
 Image Source (https://www.bankmycell.com/blog/how-many-phones-are-in-the-world)
 
 It is our hope that this product might also help those in middle- and low-income countries who have limited access to vaccines and testing infrastructure but may have cell phone access.
+
 ![image](https://user-images.githubusercontent.com/74585697/136975821-d2eba02a-54f7-4503-bdbd-4b117d603682.png)
 Image Source (https://www.linkedin.com/in/williamhgates/)
 
