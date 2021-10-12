@@ -14,3 +14,20 @@ As a citizen of a developing nation, I cannot travel to a testing facility and I
 As an insurance company, medical provider, or government, I need to limit the spread of COVID-19 to keep medical facilities from being overwhelmed, prevent death and economic hardship, and I need to pay for any testing expense and damage that may result from the virus. I need an accurate COVID-19 test that is cheaper, easier to manufacture and distribute, and effective at stopping the spread of the virus. 
 
 As a person who wants to get tested for COVID-19 at any time in any location with access to a smartphone, I want to get my results instantly, with minimal cost, minimal travel distance, minimal interaction with other people (potential to infect others), as many times as I want,  with a high level of sensitivity (high true positive rate) and high specificity (high true negative rate) because I want to help limit the spread of COVID-19 from symptomatic individuals and prevent unnecessary death and hospitalization.
+
+# Open-Source Data
+The COUGHVID dataset provides over 25,000 crowdsourced cough recordings representing a wide range of participant ages, genders, geographic locations, and COVID-19 statuses. Four experienced physicians labeled more than 2,800 of the recordings.
+  Measurement(s)	Cough
+  Technology Type(s)	Microphone Device
+  Factor Type(s)	COVID-19 status • location • age • gender • respiratory condition
+  Sample Characteristic - Organism	Homo sapiens
+Machine-accessible metadata file describing the reported data: https://doi.org/10.6084/m9.figshare.14377019
+Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
+
+The XGB classifier used to remove non-cough recordings, feature extraction source code, cough preprocessing methods, cough segmentation function, and SNR estimation algorithm are available on a public repository: https://c4science.ch/diffusion/10770/repository
+
+# What is Xgb regression?
+Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
+
+# Machine Learning Technology
+We are learning more about pytorch to better understand what libraries, tools and/or algorithms may be available to us to help us improve the classification of cough audio samples to diagnose COVID-19 and build our MVP.
