@@ -20,7 +20,7 @@ Although the lack of electricity in some countries prevents the poorest citizens
 ![image](https://user-images.githubusercontent.com/74585697/136975046-b508854f-037f-46df-877b-a6a71ee1d954.png)
 Image Source (https://www.bankmycell.com/blog/how-many-phones-are-in-the-world)
 
-It is our hope that this product might also help those in middle- and low-income countries who have limited access to vaccines and testing infrastructure but may have cell phone access.
+It is our hope that this product will help those in middle- and low-income countries who have limited access to vaccines and testing infrastructure but may have cell phone or smartphone access.
 
 ![image](https://user-images.githubusercontent.com/74585697/136975821-d2eba02a-54f7-4503-bdbd-4b117d603682.png)
 Image Source (https://www.linkedin.com/in/williamhgates/)
