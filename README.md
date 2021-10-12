@@ -23,7 +23,9 @@ Image Source (https://www.bankmycell.com/blog/how-many-phones-are-in-the-world)
 It is our hope that this product will help those in middle- and low-income countries who have limited access to vaccines and testing infrastructure but may have cell phone or smartphone access. We use this graphic of vaccine access as a proxy for COVID-19 testing access understanding the correlation is not demonstrated.
 
 ![image](https://user-images.githubusercontent.com/74585697/136975821-d2eba02a-54f7-4503-bdbd-4b117d603682.png)
+
 Image Source (https://www.linkedin.com/in/williamhgates/)
+
 
 # Open-Source Data
 The COUGHVID dataset provides over 25,000 crowdsourced cough recordings representing a wide range of participant ages, genders, geographic locations, and COVID-19 statuses. Four experienced physicians labeled more than 2,800 of the recordings.
@@ -31,6 +33,10 @@ The COUGHVID dataset provides over 25,000 crowdsourced cough recordings represen
   Technology Type(s)	Microphone Device
   Factor Type(s)	COVID-19 status • location • age • gender • respiratory condition
   Sample Characteristic - Organism	Homo sapiens
+  
+Color-coded map of COVID-19 positive tests and points representing audio sample collections:
+![image](https://user-images.githubusercontent.com/74585697/136977288-d11605c4-65d3-4faf-aa7c-f2e5931855af.png)
+
 Machine-accessible metadata file describing the reported data: https://doi.org/10.6084/m9.figshare.14377019
 Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
 
