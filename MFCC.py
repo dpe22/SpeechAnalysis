@@ -357,7 +357,7 @@ def benchmark_resample(
 # MFCC
 waveform, sample_rate = get_speech_sample()
 
-n_fft = 204480
+n_fft = 262144
 win_length = None
 hop_length = 512
 n_mels = 256
