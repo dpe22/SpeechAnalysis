@@ -11,3 +11,5 @@ pip install -r requirements.txt
 Conda:
 
 conda env create -f environment.yml
+
+Note you must have FFMPEG installed for this to work.
