@@ -6,6 +6,7 @@
 # with the following.
 # !pip install torchaudio librosa boto3
 
+#! /usr/bin/env python3
 import torch
 import torchaudio
 import torchaudio.functional as F
@@ -40,21 +41,7 @@ import pandas as pd
 import time
 from IPython.display import Audio, display
 
-[width, height] = matplotlib.rcParams['figure.figsize']
-if width < 10:
-  matplotlib.rcParams['figure.figsize'] = [width * 2.5, height]
 
-_SAMPLE_DIR = "_sample_data"
-SAMPLE_WAV_URL = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
-SAMPLE_WAV_PATH = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
-
-SAMPLE_WAV_SPEECH_URL = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
-SAMPLE_WAV_SPEECH_PATH = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
-
-
-YESNO_DATASET_PATH = os.path.join(_SAMPLE_DIR, "yes_no")
-os.makedirs(YESNO_DATASET_PATH, exist_ok=True)
-os.makedirs(_SAMPLE_DIR, exist_ok=True)
 
 def _fetch_data():
   uri = [
@@ -65,7 +52,7 @@ def _fetch_data():
     with open(path, 'wb') as file_:
       file_.write(requests.get(url).content)
 
-#_fetch_data()
+#fetch_data()
 
 #Example for using publicly accessible datasets
 #def _download_yesno():
@@ -188,7 +175,7 @@ def plot_spectrogram(spec, title=None, ylabel='freq_bin', aspect='auto', xmax=No
   if xmax:
     axs.set_xlim((0, xmax))
   fig.colorbar(im, ax=axs)
-  plt.show(block=False)
+  plt.show(block=True)
 
 def plot_mel_fbank(fbank, title=None):
   fig, axs = plt.subplots(1, 1)
@@ -203,7 +190,7 @@ def get_spectrogram(
     win_len = None,
     hop_len = None,
     power = 2.0,
-):
+    ):
   waveform, _ = get_speech_sample()
   spectrogram = T.Spectrogram(
       n_fft=n_fft,
@@ -329,8 +316,8 @@ def benchmark_resample(
     resampling_method=DEFAULT_RESAMPLING_METHOD,
     beta=None,
     librosa_type=None,
-    iters=5
-):
+    iters=5):
+
   if method == "functional":
     begin = time.time()
     for _ in range(iters):
@@ -355,25 +342,54 @@ def benchmark_resample(
     return elapsed / iters
 
 # MFCC
-waveform, sample_rate = get_speech_sample()
+if __name__ == "__main__":
+  DEFAULT_OFFSET = 201
+  SWEEP_MAX_SAMPLE_RATE = 48000
+  DEFAULT_LOWPASS_FILTER_WIDTH = 6
+  DEFAULT_ROLLOFF = 0.99
+  DEFAULT_RESAMPLING_METHOD = 'sinc_interpolation'
 
-n_fft = 204480
-win_length = None
-hop_length = 512
-n_mels = 256
-n_mfcc = 256
 
-mfcc_transform = T.MFCC(
-    sample_rate=sample_rate,
-    n_mfcc=n_mfcc,
-    melkwargs={
-      'n_fft': n_fft,
-      'n_mels': n_mels,
-      'hop_length': hop_length,
-      'mel_scale': 'htk',
-    }
-)
+  [width, height] = matplotlib.rcParams['figure.figsize']
+  if width < 10:
+    matplotlib.rcParams['figure.figsize'] = [width * 2.5, height]
 
-mfcc = mfcc_transform(waveform)
+  _SAMPLE_DIR = "_sample_data"
+  SAMPLE_WAV_URL = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
+  SAMPLE_WAV_PATH = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
+  #os.path.join(_SAMPLE_DIR, "cough.wav")
 
-plot_spectrogram(mfcc[0])
+  SAMPLE_WAV_SPEECH_URL = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
+  SAMPLE_WAV_SPEECH_PATH = "/media/james/extradrive1/homework/homework/EC601/SpeechAnalysis/Preprocessing/cough.wav"
+  #os.path.join(_SAMPLE_DIR, "cough.wav")
+
+
+  YESNO_DATASET_PATH = os.path.join(_SAMPLE_DIR, "yes_no")
+  os.makedirs(YESNO_DATASET_PATH, exist_ok=True)
+  os.makedirs(_SAMPLE_DIR, exist_ok=True)
+
+  metadata = torchaudio.info(SAMPLE_WAV_PATH)
+  print(metadata)
+
+  waveform, sample_rate = get_speech_sample()
+
+  n_fft = 4096
+  win_length = None
+  hop_length = 512
+  n_mels = 256
+  n_mfcc = 13
+
+  mfcc_transform = T.MFCC(
+      sample_rate=sample_rate,
+      n_mfcc=n_mfcc,
+      melkwargs={
+        'n_fft': n_fft,
+        'n_mels': n_mels,
+        'hop_length': hop_length,
+        'mel_scale': 'htk',
+      }
+  )
+
+  mfcc = mfcc_transform(waveform)
+
+  plot_spectrogram(mfcc[0])
