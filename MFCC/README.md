@@ -1,5 +1,8 @@
 # What we have done
+The flowgraph(not actually a graph):
 
+MFCC feture extraction
+(show image)
 
 
 
