@@ -41,7 +41,9 @@ import pandas as pd
 import time
 from IPython.display import Audio, display
 
-
+from python_speech_features import mfcc
+from python_speech_features import logfbank
+import scipy.io.wavfile as wav
 
 def _fetch_data():
   uri = [
@@ -373,23 +375,29 @@ if __name__ == "__main__":
 
   waveform, sample_rate = get_speech_sample()
 
-  n_fft = 4096
+  n_fft = 2048
   win_length = None
   hop_length = 512
   n_mels = 256
   n_mfcc = 13
 
-  mfcc_transform = T.MFCC(
-      sample_rate=sample_rate,
-      n_mfcc=n_mfcc,
-      melkwargs={
-        'n_fft': n_fft,
-        'n_mels': n_mels,
-        'hop_length': hop_length,
-        'mel_scale': 'htk',
-      }
-  )
+  #mfcc_transform = T.MFCC(
+   #   sample_rate=sample_rate,
+   #   n_mfcc=n_mfcc#,
+      #melkwargs={
+      #  'n_fft': n_fft,
+      #  'n_mels': n_mels,
+      #  'hop_length': hop_length,
+      #  'mel_scale': 'htk',
+      #}
+  #)
 
-  mfcc = mfcc_transform(waveform)
 
-  plot_spectrogram(mfcc[0])
+  #mfcc1 = mfcc_transform(waveform)
+  #plot_spectrogram(mfcc1[0])
+
+  (rate,sig) = wav.read(SAMPLE_WAV_SPEECH_PATH)
+  
+  mfcc_feat = mfcc(sig,rate,winlen = 0.008,winstep=0.003,preemph = 0) 
+  plot_spectrogram(mfcc_feat)
+ 
