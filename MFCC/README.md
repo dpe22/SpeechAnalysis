@@ -2,7 +2,7 @@
 MFCC feture extraction
 (show image)
 
-MFCC convert time domain signals into frequency domain signal by mimicking cochlea function using Mel filters.
+MFCC convert time domain signals into frequency domain signal by mimicking cochlea function(human ear) using Mel filters.
 
 https://python-speech-features.readthedocs.io/en/latest/#
 
