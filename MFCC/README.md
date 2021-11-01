@@ -8,6 +8,5 @@ https://python-speech-features.readthedocs.io/en/latest/#
 
 
 # What next
-Apply random Poisson distribution filter on MFCC for mimic Muscular Degradation(training data set)
-
-CNN-ResNet50: try feeding MFCC to ML for training 
+CNN-ResNet18: try feeding MFCC to ML for training 
+using cough against covid
