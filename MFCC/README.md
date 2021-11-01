@@ -6,6 +6,10 @@ MFCC convert time domain signals into frequency domain signal by mimicking cochl
 
 https://python-speech-features.readthedocs.io/en/latest/#
 
+https://stackoverflow.com/questions/60492462/mfcc-python-completely-different-result-from-librosa-vs-python-speech-features
+
+
+
 
 # What next
 CNN-ResNet18: try feeding MFCC to ML for training 
