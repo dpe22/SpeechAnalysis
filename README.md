@@ -80,6 +80,10 @@ Adam = adaptive moment estimation
 Increase accuracy with ResNet50 instead of VGG16 for training and modeling and use MFCC for spectrogram generation. Rerun on COVIDHACK dataset.
 Resnet is deeper and produces a much lighter model, i.e. smaller model file size. 
 
+## What is ResNet50?
+![image](https://user-images.githubusercontent.com/74585697/141829575-efbfe173-4255-4852-bdb0-9bd4b45b46ac.png)
+https://stackoverflow.com/questions/54207410/how-to-split-resnet50-model-from-top-as-well-as-from-bottom
+
 ## Progress VGG16 Screenshot
 ![image](https://user-images.githubusercontent.com/74585697/141828455-a6744d0a-53b5-4244-af72-8090914aae87.png)
 
