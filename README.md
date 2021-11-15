@@ -55,7 +55,10 @@ The XGB classifier used to remove non-cough recordings, feature extraction sourc
 ## What is Xgb?
 Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
 
-## What is VGG16
+## What is VGG16?
+![image](https://user-images.githubusercontent.com/74585697/141827914-633ba09a-668b-493b-81a5-9b0b2044f267.png)
+Figure 1: VGG visualization (https://www.cs.toronto.edu/~frossard/post/vgg16/).
+
 Disadvantages - Takes a long time to train. The model is very large: >1 GB.
 
 Steps_per_epoch and validation_steps were calculated instead of setting a random value. Samples / batch_size. 5515 / 32 = 172. 
@@ -67,6 +70,18 @@ Adam = adaptive moment estimation
 - Adam combines the best properties of the AdaGrad and RMSProp algorithms to provide an optimization algorithm that can handle sparse gradients on noisy problems.
 - Adam is relatively easy to configure where the default configuration parameters do well on most problems.
 
+## Project Modules / Steps
+###### Part 1: Slice audio into subslices based on the txt files
+###### Part 2: Splitting to train and test (80/20)
+###### Part 3: Convert audio to spectrogram images
+###### Part 4: Training and Modeling with VGG16
+
+## What's next? 
+Increase accuracy with ResNet50 instead of VGG16 for training and modeling and use MFCC for spectrogram generation. Rerun on COVIDHACK dataset.
+Resnet is deeper and produces a much lighter model, i.e. smaller model file size. 
+
+## Progress VGG16 Screenshot
+![image](https://user-images.githubusercontent.com/74585697/141828455-a6744d0a-53b5-4244-af72-8090914aae87.png)
 
 ## Other Machine Learning Technology
 We are learning more about pytorch to better understand what libraries, tools and/or algorithms may be available to us to help us improve the classification of cough audio samples to diagnose COVID-19 and build our MVP.
