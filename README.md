@@ -55,5 +55,18 @@ The XGB classifier used to remove non-cough recordings, feature extraction sourc
 ## What is Xgb?
 Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
 
+## What is VGG16
+Disadvantages - Takes a long time to train. The model is very large: >1 GB.
+
+Steps_per_epoch and validation_steps were calculated instead of setting a random value. Samples / batch_size. 5515 / 32 = 172. 
+
+We chose Adam, with a very small learning rate .000001 because we want to be efficient and sensitive to very small differences in the audio signal spectrograms. 
+Adam = adaptive moment estimation
+
+- Adam is a replacement optimization algorithm for stochastic gradient descent for training deep learning models.
+- Adam combines the best properties of the AdaGrad and RMSProp algorithms to provide an optimization algorithm that can handle sparse gradients on noisy problems.
+- Adam is relatively easy to configure where the default configuration parameters do well on most problems.
+
+
 ## Other Machine Learning Technology
 We are learning more about pytorch to better understand what libraries, tools and/or algorithms may be available to us to help us improve the classification of cough audio samples to diagnose COVID-19 and build our MVP.
