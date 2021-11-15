@@ -52,7 +52,7 @@ Open Source Research Paper https://www.nature.com/articles/s41597-021-00937-4
 
 The XGB classifier used to remove non-cough recordings, feature extraction source code, cough preprocessing methods, cough segmentation function, and SNR estimation algorithm are available on a public repository: https://c4science.ch/diffusion/10770/repository
 
-## What is Xgb?
+###### What is Xgb?
 Extreme Gradient Boosting is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. It is called gradient boosting because it uses a gradient descent algorithm to minimize loss when adding new models. This approach supports both regression and classification predictive modeling problems.
 
 
@@ -62,7 +62,7 @@ Extreme Gradient Boosting is an open-source library that provides an efficient a
 ## Part 3: Convert audio to spectrogram images
 ## Part 4: Training and Modeling with VGG16
 
-## What is VGG16?
+###### What is VGG16?
 ![image](https://user-images.githubusercontent.com/74585697/141827914-633ba09a-668b-493b-81a5-9b0b2044f267.png)
 
 Figure 1: VGG visualization (https://www.cs.toronto.edu/~frossard/post/vgg16/).
@@ -82,7 +82,7 @@ Adam = adaptive moment estimation
 Increase accuracy with ResNet50 instead of VGG16 for training and modeling and use MFCC for spectrogram generation. Rerun on COVIDHACK dataset.
 Resnet is deeper and produces a much lighter model, i.e. smaller model file size. 
 
-## What is ResNet50?
+###### What is ResNet50?
 ![image](https://user-images.githubusercontent.com/74585697/141829575-efbfe173-4255-4852-bdb0-9bd4b45b46ac.png)
 https://stackoverflow.com/questions/54207410/how-to-split-resnet50-model-from-top-as-well-as-from-bottom
 
