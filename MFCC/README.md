@@ -15,3 +15,6 @@ https://stackoverflow.com/questions/60492462/mfcc-python-completely-different-re
 CNN-ResNet18: try feeding MFCC to ML for training 
 
 We will use Cough Against Covid
+
+# MFCC Python: completely different result from librosa vs python_speech_features vs tensorflow.signal
+https://stackoverflow.com/questions/60492462/mfcc-python-completely-different-result-from-librosa-vs-python-speech-features
