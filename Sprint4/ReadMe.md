@@ -1,5 +1,5 @@
 Files to present for Sprint 4 EC601 Dec 1, 2021
-## Healthy vs COVID cough images (plain vs MFCC)
+## Converting the raw audio into spectrograms
 Type    | Plain Spectrogram     |  MFCC |
 :---------------:|:-------------------------:|:-------------------------:
 COVID | ![image](https://user-images.githubusercontent.com/74585697/144285793-0fd55688-95ed-4703-aa18-e5364c369021.png)|![image](https://user-images.githubusercontent.com/74585697/144285865-28af373e-44d0-4126-b5a1-c3542ab32868.png)
