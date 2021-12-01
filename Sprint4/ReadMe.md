@@ -1,12 +1,6 @@
 Files to present for Sprint 4 EC601 Dec 1, 2021
-## Converting raw audio samples into spectrograms
-Type    | Plain Spectrogram     |  MFCC |
-:---------------:|:-------------------------:|:-------------------------:
-COVID | ![image](https://user-images.githubusercontent.com/74585697/144285793-0fd55688-95ed-4703-aa18-e5364c369021.png)|![image](https://user-images.githubusercontent.com/74585697/144285865-28af373e-44d0-4126-b5a1-c3542ab32868.png)
-HEALTHY | ![image](https://user-images.githubusercontent.com/74585697/144285938-829c52a3-ee88-48d9-aab1-ae1b255fff56.png)|![image](https://user-images.githubusercontent.com/74585697/144285986-352f57e0-a642-40cd-a2e1-420e88a296f6.png)
-
 ## Transfer learning using VGG16 and ResNet50
-Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. Our VGG16 model is using transfer learning based on the ImageNet 1000-class photograph classification competition.
+Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. Our VGG16 model is using transfer learning based on the ImageNet 1000-class photograph classification competition. Our goal is to create an MVP COVID classification model by applying transfer learning from ImageNet.
 
 ML Model   | Specificity  (MVP goal > 95.0%)   |  Sensitivity (MVP goal > 90%) | File Size
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
@@ -16,6 +10,15 @@ ResNet50 | 60% | 47% | 270 MB
 Specificity: The ratio of samples without covid that the model correctly predicts as negative
 Sensitivity: The ratio of samples with covid that the model correctly predicts as positive
 
+
+## Converting raw audio samples into spectrograms
+Type    | Plain Spectrogram     |  MFCC |
+:---------------:|:-------------------------:|:-------------------------:
+COVID | ![image](https://user-images.githubusercontent.com/74585697/144285793-0fd55688-95ed-4703-aa18-e5364c369021.png)|![image](https://user-images.githubusercontent.com/74585697/144285865-28af373e-44d0-4126-b5a1-c3542ab32868.png)
+HEALTHY | ![image](https://user-images.githubusercontent.com/74585697/144285938-829c52a3-ee88-48d9-aab1-ae1b255fff56.png)|![image](https://user-images.githubusercontent.com/74585697/144285986-352f57e0-a642-40cd-a2e1-420e88a296f6.png)
+
+
+## ML Training Results
 ML Model   | Confusion Matrix     |  Accuracy | Loss
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
 VGG16 | ![confusionVGG16](https://user-images.githubusercontent.com/74585697/144160213-22a3a5bc-d596-40c8-a6de-be4ab80080c9.png) | ![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png) | ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
