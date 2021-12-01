@@ -8,10 +8,10 @@ HEALTHY | ![image](https://user-images.githubusercontent.com/74585697/144285938-
 ## Transfer learning using VGG16 and ResNet50
 Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. Our VGG16 model is using transfer learning based on the ImageNet 1000-class photograph classification competition.
 
-ML Model   | Specificity  (MVP goal > 95.0%)   |  Sensitivity (MVP goal > 90%)
-:---------------:|:-------------------------:|:-------------------------:
-VGG16 | 95 - 97% | 3.6%
-ResNet50 | 60% | 47%
+ML Model   | Specificity  (MVP goal > 95.0%)   |  Sensitivity (MVP goal > 90%) | File Size
+:---------------:|:-------------------------:|:-------------------------:|:---------------------:
+VGG16 | 95 - 97% | 3.6% | 1.5 GB
+ResNet50 | 60% | 47% | 270 MB
 
 Specificity: The ratio of samples without covid that the model correctly predicts as negative
 Sensitivity: The ratio of samples with covid that the model correctly predicts as positive
