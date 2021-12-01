@@ -5,7 +5,8 @@ Type    | Plain Spectrogram     |  MFCC |
 COVID | ![image](https://user-images.githubusercontent.com/74585697/144285793-0fd55688-95ed-4703-aa18-e5364c369021.png)|![image](https://user-images.githubusercontent.com/74585697/144285865-28af373e-44d0-4126-b5a1-c3542ab32868.png)
 HEALTHY | ![image](https://user-images.githubusercontent.com/74585697/144285938-829c52a3-ee88-48d9-aab1-ae1b255fff56.png)|![image](https://user-images.githubusercontent.com/74585697/144285986-352f57e0-a642-40cd-a2e1-420e88a296f6.png)
 
-## VGG16 Results
+## Transfer learning using VGG16
+Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. Our VGG16 model is using transfer learning based on the ImageNet 1000-class photograph classification competition.
 
 ###### Specificity 
 96.8%  (MVP goal > 95.0%)
@@ -25,7 +26,7 @@ The ratio of samples with covid that the model correctly predicts as positive
 ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
 
 
-## ResNet50 Results
+## Transfer Learning using ResNet50
 
 ###### Specificity 
 60%  (MVP goal > 95.0%)
