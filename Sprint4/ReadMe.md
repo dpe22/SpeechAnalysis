@@ -9,6 +9,7 @@ VGG16 | 95 - 97% | 3.6% | 1.5 GB
 ResNet50 | 60% | 47% | 270 MB
 
 Specificity: The ratio of samples without covid that the model correctly predicts as negative
+
 Sensitivity: The ratio of samples with covid that the model correctly predicts as positive
 
 
