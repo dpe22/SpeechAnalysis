@@ -29,6 +29,8 @@ ResNet50 | ![confusionResNet50](https://user-images.githubusercontent.com/745856
 
 ## What we would do with one more sprint
 LSTM (Long Short Term Memory) RNN model
+
 Improve signal preprocessing, feature extraction, and data cleaning
+
 Combine datasets and machine learning models
 
