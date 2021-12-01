@@ -5,8 +5,8 @@ Transfer learning is a research problem in machine learning that focuses on stor
 ## Sprint 4 Results:
 ML Model   | Specificity  (MVP goal > 95.0%)   |  Sensitivity (MVP goal > 90%) | File Size
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
-VGG16 | 95 - 97% | 3.6% | 1.5 GB
-ResNet50 | 60% | 47% | 270 MB
+VGG16 | 95 - 97% | 2 - 4% | 1.5 GB
+ResNet50 | 58-62% | 45 - 49% | 270 MB
 
 Specificity: The ratio of samples without covid that the model correctly predicts as negative
 
