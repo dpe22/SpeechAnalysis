@@ -27,5 +27,8 @@ VGG16 | ![confusionVGG16](https://user-images.githubusercontent.com/74585697/144
 ResNet50 | ![confusionResNet50](https://user-images.githubusercontent.com/74585697/144161272-8024bc2a-4901-400d-b588-6e41745184d9.png) | ![covidResNet50accuracy](https://user-images.githubusercontent.com/74585697/144161313-ca10ad59-e594-4912-9eeb-78194c2ac806.png) | ![covidResNet50loss](https://user-images.githubusercontent.com/74585697/144161329-5958d57b-3af9-434e-87eb-e267fe2c5a30.png) | NULL
 
 
-
+## What we would do with one more sprint
+LSTM (Long Short Term Memory) RNN model
+Improve signal preprocessing, feature extraction, and data cleaning
+Combine datasets and machine learning models
 
