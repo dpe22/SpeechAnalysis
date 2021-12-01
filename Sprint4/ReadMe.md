@@ -1,7 +1,8 @@
 Files to present for Sprint 4 EC601 Dec 1, 2021
-## Transfer learning using VGG16 and ResNet50
+## Sprint 4 Summary: Transfer learning using VGG16 and ResNet50
 Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. Our VGG16 model is using transfer learning based on the ImageNet 1000-class photograph classification competition. Our goal is to create an MVP COVID classification model by applying transfer learning from ImageNet.
 
+## Sprint 4 Results:
 ML Model   | Specificity  (MVP goal > 95.0%)   |  Sensitivity (MVP goal > 90%) | File Size
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
 VGG16 | 95 - 97% | 3.6% | 1.5 GB
