@@ -24,7 +24,7 @@ HEALTHY | ![image](https://user-images.githubusercontent.com/74585697/144285938-
 ML Model   | Confusion Matrix     |  Accuracy | Loss
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
 VGG16 | ![confusionVGG16](https://user-images.githubusercontent.com/74585697/144160213-22a3a5bc-d596-40c8-a6de-be4ab80080c9.png) | ![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png) | ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
-ResNet50 | ![confusionResNet50](https://user-images.githubusercontent.com/74585697/144161272-8024bc2a-4901-400d-b588-6e41745184d9.png) | ![resnet50accuracy](https://user-images.githubusercontent.com/74585697/144291744-be0cf01f-77e4-447d-905a-6a6f7329619c.png) | ![resnet50loss](https://user-images.githubusercontent.com/74585697/144291835-8be987a2-5b2a-4517-88e2-391f04171dda.png) | NULL
+ResNet50 | ![resnet50confusion](https://user-images.githubusercontent.com/74585697/144291921-73aafa17-d5a6-475f-99f2-0e298702b164.png) | ![resnet50accuracy](https://user-images.githubusercontent.com/74585697/144291744-be0cf01f-77e4-447d-905a-6a6f7329619c.png) | ![resnet50loss](https://user-images.githubusercontent.com/74585697/144291835-8be987a2-5b2a-4517-88e2-391f04171dda.png) | NULL
 
 
 ## What we would do with one more sprint
