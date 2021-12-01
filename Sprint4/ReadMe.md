@@ -19,16 +19,22 @@ The ratio of samples with covid that the model correctly predicts as positive
 ###### Loss
 ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
 
-###### MAE (Mean Absolute Error)
-![covidVGG16mae](https://user-images.githubusercontent.com/74585697/144160642-81e88dfa-d2e8-467f-b0aa-e015b352dbfe.png)
-
 
 ## ResNet50 Results
 
 ###### Specificity 
-%  (MVP goal > 95.0%)
+60%  (MVP goal > 95.0%)
 The ratio of samples without covid that the model correctly predicts as negative
 
 ###### Sensitivity 
-%  (MVP goal > 90%)
+47%  (MVP goal > 90%)
 The ratio of samples with covid that the model correctly predicts as positive
+
+###### Confusion Matrix
+![confusionResNet50](https://user-images.githubusercontent.com/74585697/144161272-8024bc2a-4901-400d-b588-6e41745184d9.png)
+
+###### Validation Accuracy
+![covidResNet50accuracy](https://user-images.githubusercontent.com/74585697/144161313-ca10ad59-e594-4912-9eeb-78194c2ac806.png)
+
+###### Loss
+![covidResNet50loss](https://user-images.githubusercontent.com/74585697/144161329-5958d57b-3af9-434e-87eb-e267fe2c5a30.png)
