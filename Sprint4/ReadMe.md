@@ -16,6 +16,11 @@ The ratio of samples with covid that the model correctly predicts as positive
 ###### Validation Accuracy
 ![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png)
 
+###### Loss
+![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
+
+###### MAE (Mean Absolute Error)
+![covidVGG16mae](https://user-images.githubusercontent.com/74585697/144160642-81e88dfa-d2e8-467f-b0aa-e015b352dbfe.png)
 
 
 ## ResNet50 Results
