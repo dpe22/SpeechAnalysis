@@ -16,15 +16,10 @@ The ratio of samples without covid that the model correctly predicts as negative
 3.6%  (MVP goal > 90%)
 The ratio of samples with covid that the model correctly predicts as positive
 
-###### Confusion Matrix
-![confusionVGG16](https://user-images.githubusercontent.com/74585697/144160213-22a3a5bc-d596-40c8-a6de-be4ab80080c9.png)
-
-###### Validation Accuracy
-![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png)
-
-###### Loss
-![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
-
+ML Model   | Confusion Matrix     |  Accuracy | Loss
+:---------------:|:-------------------------:|:-------------------------:|:---------------------:
+VGG16 | ![confusionVGG16](https://user-images.githubusercontent.com/74585697/144160213-22a3a5bc-d596-40c8-a6de-be4ab80080c9.png) | ![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png) | ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
+ResNet50 | ![confusionResNet50](https://user-images.githubusercontent.com/74585697/144161272-8024bc2a-4901-400d-b588-6e41745184d9.png) | ![covidResNet50accuracy](https://user-images.githubusercontent.com/74585697/144161313-ca10ad59-e594-4912-9eeb-78194c2ac806.png) | ![covidResNet50loss](https://user-images.githubusercontent.com/74585697/144161329-5958d57b-3af9-434e-87eb-e267fe2c5a30.png) | NULL
 
 ## Transfer Learning using ResNet50
 
@@ -36,11 +31,3 @@ The ratio of samples without covid that the model correctly predicts as negative
 47%  (MVP goal > 90%)
 The ratio of samples with covid that the model correctly predicts as positive
 
-###### Confusion Matrix
-![confusionResNet50](https://user-images.githubusercontent.com/74585697/144161272-8024bc2a-4901-400d-b588-6e41745184d9.png)
-
-###### Validation Accuracy
-![covidResNet50accuracy](https://user-images.githubusercontent.com/74585697/144161313-ca10ad59-e594-4912-9eeb-78194c2ac806.png)
-
-###### Loss
-![covidResNet50loss](https://user-images.githubusercontent.com/74585697/144161329-5958d57b-3af9-434e-87eb-e267fe2c5a30.png)
