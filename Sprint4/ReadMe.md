@@ -25,8 +25,7 @@ ML Model   | Confusion Matrix     |  Accuracy | Loss
 :---------------:|:-------------------------:|:-------------------------:|:---------------------:
 VGG16 | ![confusionVGG16](https://user-images.githubusercontent.com/74585697/144160213-22a3a5bc-d596-40c8-a6de-be4ab80080c9.png) | ![covidVGG16accuracy](https://user-images.githubusercontent.com/74585697/144160320-bf882314-a65f-40bb-8136-1b53ab534bf6.png) | ![covidVGG16loss](https://user-images.githubusercontent.com/74585697/144160601-25f3c118-2d12-4a1a-ba1f-0af5e1d3b97b.png)
 ResNet50 | ![resnet50confusion](https://user-images.githubusercontent.com/74585697/144291921-73aafa17-d5a6-475f-99f2-0e298702b164.png) | ![resnet50accuracy](https://user-images.githubusercontent.com/74585697/144291744-be0cf01f-77e4-447d-905a-6a6f7329619c.png) | ![resnet50loss](https://user-images.githubusercontent.com/74585697/144291835-8be987a2-5b2a-4517-88e2-391f04171dda.png)
-EfficientNetB4 | NULL | ![image](https://user-images.githubusercontent.com/74585697/144899524-434d680b-0469-4800-8013-ea1efb369531.png)
- | ![image](https://user-images.githubusercontent.com/74585697/144899455-76e8a402-9475-46a4-95a1-9c70b66fb06e.png) 
+EfficientNetB4 | | ![image](https://user-images.githubusercontent.com/74585697/144899524-434d680b-0469-4800-8013-ea1efb369531.png) | ![image](https://user-images.githubusercontent.com/74585697/144899455-76e8a402-9475-46a4-95a1-9c70b66fb06e.png) 
 
 
 
