@@ -45,8 +45,8 @@ def convert_to_spec_image(file_loc, filename, category, is_train=False, verbose=
     specshow(src_db, sr=sr, x_axis=None, y_axis=None)  
     #plt.ylim(0, 10000)
     #plt.xlim(0,5)
-    plt.show()
-    breakpoint()
+    #plt.show()
+    #breakpoint()
     save_directory = './specPLAIN/'
     filename_img = filename.split('.wav')[0]
     
