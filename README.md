@@ -60,6 +60,8 @@ Extreme Gradient Boosting is an open-source library that provides an efficient a
 ## Part 1: Slice audio into subslices based on the txt files
 ## Part 2: Splitting to train and test (80/20)
 ## Part 3: Convert audio to spectrogram and MFCC images
+###### what is MFCC? 
+MFCC scales the frequency to match more closely to what the human ear can hear (humans are better at identifying small changes in speech at lower frequencies).
 ## Part 4: Training and Modeling with VGG16, ResNet50, EfficientNet
 
 ###### VGG16
