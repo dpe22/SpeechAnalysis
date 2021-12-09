@@ -62,7 +62,7 @@ Extreme Gradient Boosting is an open-source library that provides an efficient a
 ## Part 3: Convert audio to spectrogram and MFCC images
 ## Part 4: Training and Modeling with VGG16, ResNet50, EfficientNet
 
-###### What is VGG16?
+###### VGG16
 ![image](https://user-images.githubusercontent.com/74585697/141827914-633ba09a-668b-493b-81a5-9b0b2044f267.png)
 
 Figure 1: VGG visualization (https://www.cs.toronto.edu/~frossard/post/vgg16/).
@@ -78,16 +78,10 @@ Adam = adaptive moment estimation
 - Adam combines the best properties of the AdaGrad and RMSProp algorithms to provide an optimization algorithm that can handle sparse gradients on noisy problems.
 - Adam is relatively easy to configure where the default configuration parameters do well on most problems.
 
-## What's next? 
-Increase accuracy with ResNet50 instead of VGG16 for training and modeling and use MFCC for spectrogram generation. Rerun on COVIDHACK dataset.
-Resnet is deeper and produces a much lighter model, i.e. smaller model file size. 
-
 ###### What is ResNet50?
 ![image](https://user-images.githubusercontent.com/74585697/141829575-efbfe173-4255-4852-bdb0-9bd4b45b46ac.png)
 https://stackoverflow.com/questions/54207410/how-to-split-resnet50-model-from-top-as-well-as-from-bottom
 
-## Progress VGG16 Screenshot
-![image](https://user-images.githubusercontent.com/74585697/141828455-a6744d0a-53b5-4244-af72-8090914aae87.png)
-
-## Other Machine Learning Technology
-We are learning more about pytorch to better understand what libraries, tools and/or algorithms may be available to us to help us improve the classification of cough audio samples to diagnose COVID-19 and build our MVP.
+###### What is EfficientNet?
+EfficientNet is a convolutional neural network architecture that use a uniformly scaling method to scale all dimensions of depth/width/resolution using a compound coefficient. Unlike conventional practice that arbitrary scales these factors, the EfficientNet scaling method uniformly scales network width, depth, and resolution with a set of fixed scaling coefficients.
+So for bigger spectrogram, the network needs more layers to increase the receptive field and more channels to capture more fine-grained patterns on the spectrogram.
