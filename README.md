@@ -59,16 +59,8 @@ Extreme Gradient Boosting is an open-source library that provides an efficient a
 # Project Modules / Steps
 ## Part 1: Slice audio into subslices based on the txt files
 ## Part 2: Splitting to train and test (80/20)
-Asthma
-Bronchiectasis
-Bronchiolitis
-COPD
-Healthy
-LRTI
-Pneumonia
-URTI
-## Part 3: Convert audio to spectrogram images
-## Part 4: Training and Modeling with VGG16
+## Part 3: Convert audio to spectrogram and MFCC images
+## Part 4: Training and Modeling with VGG16, ResNet50, EfficientNet
 
 ###### What is VGG16?
 ![image](https://user-images.githubusercontent.com/74585697/141827914-633ba09a-668b-493b-81a5-9b0b2044f267.png)
